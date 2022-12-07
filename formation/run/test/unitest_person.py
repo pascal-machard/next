@@ -1,9 +1,8 @@
 import math
 import unittest
 
-from formation.solution.lib.client import Client
-from formation.solution.lib.person import Person
-from formation.solution.lib.point2d import Point2D
+from formation.run.lib.client import Client
+from formation.run.lib.person import Person
 
 
 def who_is_it(p):
