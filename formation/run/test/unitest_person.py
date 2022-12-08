@@ -1,4 +1,3 @@
-import math
 import unittest
 
 from formation.run.lib.client import Client
