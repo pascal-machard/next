@@ -83,3 +83,9 @@ class UnitestPoint3D(unittest.TestCase):
         a = Point2D(x=2.0, y=1.0)
         assert a.coord_homogen() == [2.0, 1.0, 1.0]
 
+    @staticmethod
+    def test_simple_2D_coord_color():
+        a = Point2D(x=2.0, y=1.0)
+        a.set_color("red")
+        #assert a.__color == (255, 0, 0)
+        assert a.get_color() == "red"

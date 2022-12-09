@@ -2,19 +2,31 @@ from math import sqrt
 
 
 class Point2D:
-    __slots__ = ['x', 'y']
 
     def __init__(self, x=0.0, y=0.0):
         self.x = x
         self.y = y
-    def __del__(self):
-        #del P destroy (delete) a point
-        class_name = self.__class__.__name__
+        self.__color = (255, 0, 0)
+
+    def set_color(self, color):
+        if color == "red":
+            self.__color = (255, 0, 0)
+        elif color == "blue":
+            self.__color = (0, 0, 255)
+        else:
+            self.__color = (0, 0, 0)
+
+    def get_color(self):
+        if self.__color == (255, 0, 0):
+            return "red"
+        elif self.__color == (0, 0, 255):
+            return "blue"
+        return "black"
 
     def __add__(self, P):
         S = Point2D(self.x, self.y)
-        S.x = self.x + P.x
-        S.y = self.y + P.y
+        S.x += P.x
+        S.y += P.y
         return S
 
     __radd__ = __add__
@@ -57,3 +69,4 @@ class Point2D:
 
     def coord_homogen(self):
         return [self.x, self.y, 1.0]
+
