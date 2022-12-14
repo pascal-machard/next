@@ -1,3 +1,5 @@
 class user:
     def __init__(self, name, mail, birthday):
-       pass
+       self.name = name
+       self.mail = mail
+       self.birthday = birthday
