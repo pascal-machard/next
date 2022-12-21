@@ -9,7 +9,7 @@ def main():
         print("Oui c'est bien polo")
     elif value == "toto":
         print("Oui c'est bien l'ami de polo, c'est toto")
-    else :
+    else:
         print("valeur saisie = ", value)
 
     print("fin du test")

@@ -7,7 +7,7 @@ def main():
 
     value_int = int(value)
 
-    for i in range(0, value_int, 1):
+    for i in range(0, value_int, 2):
         print("coucou ", i)
 
 
