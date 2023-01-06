@@ -2,7 +2,7 @@ def main():
 
     print("exemple 05 for 02")
 
-    print("Saisi d'une valeur entiere :")
+    print("Saisi d'une valeur entière :")
     value = input()
 
     value_int = int(value)
