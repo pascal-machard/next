@@ -209,7 +209,7 @@ def main():
 
     my_set = {'bmw', 'ferrari', 'mclaren'}
     print('|'.join(my_set))
-    # output: ferrari|bmw|mclaren
+    # output: bmw|ferrari|mclaren
 
     my_dict = {'bmw': 'BMW I8', 'ferrari': 'Ferrari F8', 'mclaren': 'McLaren 720S'}
     print(','.join(my_dict))

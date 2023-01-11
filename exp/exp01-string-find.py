@@ -1,11 +1,11 @@
 def main():
     message = "hello world"
-    messagea = message.find("worl")
-    print(messagea)
+    index = message.find("world")
+    print(index)
 
     message = "Hello World"
-    messageb = message.find("squirrel")
-    print(messageb)
+    index = message.find("squirrel")
+    print(index)
 
 
 if __name__ == "__main__":
