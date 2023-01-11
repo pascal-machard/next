@@ -12,14 +12,6 @@ def main():
     message = 'hello' + ' ' + 'world'
     print(len(message))
 
-    message = "hello world"
-    messagea = message.find("worl")
-    print(messagea)
-
-    message = "Hello World"
-    messageb = message.find("squirrel")
-    print(messageb)
-
     message = "HELLO WORLD"
     messagea = message.lower()
     print(messagea)
