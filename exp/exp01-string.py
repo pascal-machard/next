@@ -1,5 +1,6 @@
 def main():
     message = "Hello World"
+    message = 'Hello World'
 
     message = 'hello' + ' ' + 'world'
 
